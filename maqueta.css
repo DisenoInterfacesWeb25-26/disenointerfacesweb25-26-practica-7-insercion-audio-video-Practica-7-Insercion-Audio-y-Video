@@ -1,0 +1,54 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-headerAzul {
+            background-color: #c8dae89a;
+            min-height: 80px;                                        
+            border: solid 2px #1792f0;
+        }
+
+        .bg-menuVerde {
+            background-color: #7ab839;
+            min-height: 400px;
+            border: solid 2px #457e09;
+        }
+
+        .bg-amarillo {
+            background-color: #f7d85c7c;
+            min-height: 100px;
+            border: solid 2px #e6c12f;
+        }
+
+        .bg-rosa {
+            background-color: #f5c8c8;
+            min-height: 80px;                        
+            border: solid 2px #f78d8d;
+        }
+
+        .bg-verde-claro {
+            background-color: #8de98dc0;
+            min-height: 80px;                       
+            border: solid 2px #2cb82c;
+        }
+
+        /* En desktop (lg), hacer los elementos más altos */
+        @media (min-width: 992px) {
+            .bg-rosa {
+                min-height: 150px;
+            }
+            
+            .bg-verde-claro {
+                min-height: 200px;
+            }
+        }
+
+        .bg-footerAzul {
+            background-color: #0eacf0;
+            min-height: 80px;            
+            border: solid 2px #057aac;
+        }
+
+    
